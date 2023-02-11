@@ -7,7 +7,7 @@ import EditUser from "./components/EditUser";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/crud-mern">
       <div className="container">
         <Routes>
           <Route path="/" element={<UserList />}/>
